@@ -1,0 +1,140 @@
+<style>
+	body{
+				background:thistle;
+				
+				
+		}
+		form{
+					background-color:gainsboro;
+					width:275px;
+					margin:70px  500px;
+			
+				}
+			
+		
+						
+   .c1 h1{
+			color:deeppink;
+			margin:50px 500px;   
+			text-decoration:underline  2px;
+		}
+	span{
+				color:teal;
+			}
+	
+	.f2{
+			width:275px;
+			height:50px;
+			border:2px solid teal;
+			font-size:30px;
+			color:deeppink;
+			background-color:snow;
+			
+			
+			
+		}
+	
+	.f3{
+			width:50px;
+			height:40px;
+			font-size:30px;
+			color:deeppink;
+			background-color:snow;
+			border:3px solid teal;
+			
+			
+			
+		}
+	.f4{
+			width:50px;
+			height:40px;
+			margin-left:20px;
+			font-size:30px;
+			color:deeppink;
+			background-color:snow;
+			border:3px solid teal;
+		}	
+	.f5{
+			width:200px;
+			height:40px;
+			font-size:30px;
+			color:deeppink;
+			background-color:snow;
+			border:3px solid  teal;
+			margin-left:20px;	
+			
+			
+		}
+
+	.f2:hover{	
+					color:darkolivegreen;
+				   border:2px solid 
+				}
+		
+	
+	.f3:hover{
+			     color:darkolivegreen;
+				 border:2px solid darkolivegreen;
+				}
+	.f4:hover{
+					color:darkolivegreen;
+					border:2px solid darkolivegreen;
+			}
+	.f5:hover{
+					color:darkolivegreen;
+					border:2px solid darkolivegreen;
+				}
+	
+
+
+
+
+</style>
+<html>
+<head>
+		<meta  charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<title>calculater</title>
+</head>
+<body>	
+	<div class="c1"> 
+		<h1><span>M</span>Y<span>    C</span>ALCULATER</h1>
+		
+		
+	</div>
+	<div  id="f1">
+			<form name="j">
+				<input type="text" class="f2" name="calc"><br><br>
+				<input type="button"  class="f3"  name="button1"  value="c"  onclick="j.calc.value= ''"id="del">
+				<input type="button"  class="f4"  name="button1"  value="%"   onclick="j.calc.value+='%'">
+				<input type="button"  class="f4"  name="button1"  value="/"  onclick="j.calc.value+='/'">			
+				<input type="button"  class="f4"  name="button1"  value="."   onclick="j.calc.value+='.'">
+				<br><br>
+				
+				<input type="button"  class="f3"  name="button1"  value="7"  onclick="j.calc.value+='7'">
+				<input type="button"  class="f4"  name="button1"  value="8"  onclick="j.calc.value+='8'">
+				<input type="button"  class="f4"  name="button1"  value="9" onclick="j.calc.value+='9'">			
+				<input type="button"  class="f4"  name="button1"  value="*"  onclick="j.calc.value+='*'">
+				<br><br>
+				
+				<input type="button"  class="f3"  name="button1"  value="4" onclick="j.calc.value+='4'">
+				<input type="button"  class="f4"  name="button1"  value="5" onclick="j.calc.value+='5'">
+				<input type="button"  class="f4"  name="button1"  value="6"  onclick="j.calc.value+='6'">			
+				<input type="button"  class="f4"  name="button1"  value="- "  onclick="j.calc.value+='-'">
+				<br><br>
+				
+				<input type="button"  class="f3"  name="button1"  value="1" onclick="j.calc.value+='1'">
+				<input type="button"  class="f4"  name="button1"  value="2" onclick="j.calc.value+='2'">
+				<input type="button"  class="f4"  name="button1"  value="3"  onclick="j.calc.value+='3'">
+				<input type="button"  class="f4"  name="button1"  value="+"  onclick="j.calc.value+='+'">
+				<br><br>
+				<input type="button"  class="f3"  name="button1"  value="0" onclick="j.calc.value+='0'">
+				
+				<input type="button"  class="f5"  name="button1"  value="="  onclick="j.calc.value=eval(j.calc.value)">
+				
+				
+				
+			</form>
+	</div>
+</body>
+</html>
