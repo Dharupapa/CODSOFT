@@ -1,0 +1,219 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        body {
+            background: seashell;
+        }
+
+        #header {
+            color: black;
+            margin: 10px 370px;
+            text-transform: uppercase;
+            font-size: 30px;
+            padding-left: 2px;
+            text-decoration: underline 3px deeppink;
+        }
+
+        span {
+            color: deeppink;
+        }
+
+        #searchs {
+            margin-left: 240px;
+            width: 800px;
+            height: 40px;
+            font-size: 20px;
+            color: deeppink;
+            border-radius: 5px;
+            border: 0;
+        }
+
+        .books1 {
+            margin-left: 70px;
+            color: deeppink;
+            margin-top: 50px;
+            font-size: 40px;
+            text-decoration: underline;
+        }
+
+        .slide .image-list {
+            display: grid;
+            gap: 30px;
+            overflow-x: auto;
+            font-size: 0;
+            grid-template-columns: repeat(8, 1fr);
+        }
+
+        .slide .image-list .image-item {
+            object-fit: cover;
+        }
+
+        .submit {
+            margin-top: 60px;
+            margin-left: 300px;
+            border: 3px black solid;
+            width: 700px;
+            height: 550px;
+            background: snow;
+            font-size: 20px;
+        }
+
+        .j1 {
+            font-size: 15px;
+            margin-top: 30px;
+            margin-left: 30px;
+            color: deeppink;
+        }
+
+        .j2 {
+            font-size: 20px;
+            margin-left: 30px;
+        }
+
+        .j2 {
+            width: 200px;
+            height: 50px;
+            margin-top: 30px;
+            margin-left: 30px;
+            color: deeppink;
+        }
+
+        .j3 {
+            font-size: 30px;
+            color: deeppink;
+            margin-top: 30px;
+            margin-left: 40px;
+        }
+
+        .j5 {
+            margin-left: 130px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="header">
+    <h1><span>P</span>attu <span>b</span>ookshop</h1>
+</div>
+
+<div class="box" style="display: flex; border-radius: 5px;">
+    <input id="searchs" type="text" placeholder="Search Here..." autocomplete="off" onkeyup="searchBooks()">
+</div>
+
+<div id="fiction" class="books1">
+    <h2>Fictions Books</h2>
+</div>
+
+<div class="container">
+    <div class="slide">
+        <div class="image-list">
+            <img src="imagepics (1).jpeg" alt="fiction-book1" width="300" height="300">
+            <img src="images (2).jpeg" alt="fiction-book2" width="300" height="300">
+            <img src="content.jpeg" alt="fiction-book3" width="300" height="300">
+            <img src="9780099511892.jpg" alt="fiction-book4" width="300" height="300">
+            <img src="images (3).jpeg" alt="fiction-book5" width="300" height="300">
+            <img src="images (4).jpeg" alt="fiction-book6" width="300" height="300">
+            <img src="images (5).jpeg" alt="fiction-book7" width="300" height="300">
+            <img src="images (6).jpeg" alt="fiction-book8" width="300" height="300">
+        </div>
+    </div>
+</div>
+
+<div id="Mystery" class="books1">
+    <h2>Mystery Books</h2>
+</div>
+
+<div class="container">
+    <div class="slide">
+        <div class="image-list">
+            <img src="Kitap_2021021914055122136611.jpg" alt="mystery-book1" width="300" height="300">
+            <img src="images (7).jpeg" alt="mystery-book2" width="300" height="300">
+            <img src="6530d9c2bdc94224c5b95d4c_1697700290378.jpg" alt="mystery-book3" width="300" height="300">
+            <img src="images (8).jpeg" alt="mystery-book4" width="300" height="300">
+            <img src="images (9).jpeg" alt="mystery-book5" width="300" height="300">
+            <img src="images (10).jpeg" alt="mystery-book6" width="300" height="300">
+            <img src="images (11).jpeg" alt="mystery-book7" width="300" height="300">
+            <img src="In_Cold_Blood-Truman_Capote.jpg" alt="mystery-book8" width="300" height="300">
+        </div>
+    </div>
+</div>
+
+<div id="fantasy" class="books1">
+    <h2>Fantacy Books</h2>
+</div>
+
+<div class="container">
+    <div class="slide">
+        <div class="image-list">
+            <img src="images (12).jpeg" alt="fantasy-books1" width="300" height="300">
+            <img src="images (13).jpeg" alt="fantasy-books2" width="300" height="300">
+            <img src="images (14).jpeg" alt="fantasy-books3" width="300" height="300">
+            <img src="images (15).jpeg" alt="fantasy-books4" width="300" height="300">
+            <img src="images (16).jpeg" alt="fantasy-books5" width="300" height="300">
+            <img src="images (17).jpeg" alt="fantasy-books6" width="300" height="300">
+            <img src="images (18).jpeg" alt="fantasy-books7" width="300" height="300">
+            <img src="images (19).jpeg" alt="fantasy-books8" width="300" height="300">
+        </div>
+    </div>
+</div>
+
+<div id="romance" class="books1">
+    <h2>Romance Books</h2>
+</div>
+
+<div class="container">
+    <div class="slide">
+        <div class="image-list">
+            <img src="images (20).jpeg" alt="romance-book1" width="300" height="300">
+            <img src="images (21).jpeg" alt="romance-book2" width="300" height="300">
+            <img src="images (22).jpeg" alt="romance-book3" width="300" height="300">
+            <img src="images (24).jpeg" alt="romance-book4" width="300" height="300">
+            <img src="images (25).jpeg" alt="romance-book5" width="300" height="300">
+            <img src="images (26).jpeg" alt="romance-book6" width="300" height="300">
+            <img src="images (27).jpeg" alt="romance-book7" width="300" height="300">
+            <img src="images (28).jpeg" alt="romance-book8" width="300" height="300">
+        </div>
+    </div>
+</div>
+
+<div class="submit">
+   <form method="post" action="submit.php">
+
+        <label class="j3">Send as a Message</label><label class="j3">Contact Information</label><br><br>
+        <input type="text" class="j1" placeholder="BOOK NAME" required><br><br>
+        <input type="text" class="j1" placeholder="AUTHOR NAME" required><img class="j5" src="1f4de.png" width="20px" height="20px">9344685150<br><br>
+        <input type="text" class="j1" placeholder="YOUR NAME" required><img src="e-mail-emoji-512x327-snipc2o6.png" class="j5" width="20px" height="20px">ndhraninagarajan8122@gmail.com<br><br>
+        <input type="textarea" class="j2" placeholder="YOUR ADDRESS" required><br><br>
+        <center>
+            <button class="j2">SUBMIT</button><br><br>
+            <label class="j2">THANK YOU! VISIT AGAIN!</label>
+        </center>
+    </form>
+</div>
+
+
+<script>
+function searchBooks() {
+    console.log("Search function called"); // Check if this message appears in the console
+    var input = document.getElementById('searchs').value.toLowerCase();
+    var sections = document.getElementsByClassName('container');
+
+    for (var j = 0; j < sections.length; j++) {
+        var books = sections[j].getElementsByClassName('image-list')[0].getElementsByTagName('img');
+        for (var i = 0; i < books.length; i++) {
+            var altText = books[i].alt.toLowerCase();
+            if (altText.includes(input)) {
+                books[i].style.border = '5px solid orchid';
+            } else {
+                books[i].style.border = '';
+            }
+        }
+    }
+}
+</script>
+
+</body>
+</html>
